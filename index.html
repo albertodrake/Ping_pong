@@ -2,33 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Pong with Firebase Leaderboard</title>
+  <title>Simple Pong Game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css">
-  <!-- Firebase SDKs -->
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 </head>
 <body>
-  <div id="pong-flex-layout">
-    <div id="pong-container">
-      <canvas id="pong-canvas" width="800" height="500"></canvas>
-      <div id="scoreboard"><span id="score-left">0</span> <span>-</span> <span id="score-right">0</span></div>
-      <div id="game-over" class="hidden">
-        <div id="game-over-message"></div>
-        <button id="try-again-btn">Try Again</button>
-      </div>
-      <div id="username-modal" class="show">
-        <form id="username-form">
-          <label for="username-input">Enter your name:</label>
-          <input type="text" id="username-input" required maxlength="16" autocomplete="off"/>
-          <button type="submit">Start</button>
-        </form>
-      </div>
-    </div>
-    <div id="leaderboard">
-      <h2>Leaderboard</h2>
-      <ul id="leaderboard-list"></ul>
+  <div id="pong-container">
+    <canvas id="pong-canvas" width="800" height="500"></canvas>
+    <div id="scoreboard">
+      <span id="score-left">0</span>
+      <span>-</span>
+      <span id="score-right">0</span>
     </div>
   </div>
   <script src="pong.js"></script>
