@@ -1,12 +1,13 @@
 // ----- Paste your Firebase configuration below -----
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com", // Use your actual db url
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDsVH0ahkMOrrLRiSPGXdKREt5OlS5qTpw",
+  authDomain: "pingpong-635ef.firebaseapp.com",
+  databaseURL: "https://pingpong-635ef-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "pingpong-635ef",
+  storageBucket: "pingpong-635ef.firebasestorage.app",
+  messagingSenderId: "585312447930",
+  appId: "1:585312447930:web:69b816f205537a5b818183",
+  measurementId: "G-JEW0LXE91R"
 };
 // ----- End Firebase config -----
 
