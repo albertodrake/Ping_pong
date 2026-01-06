@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Simple Pong Game</title>
+  <title>Alberto drake Ping Pong</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="pong-container">
+    <div id="controls">
+      <h2>Controls</h2>
+      <ul>
+        <li><strong>Mouse:</strong> Move the left paddle up and down.</li>
+        <li><strong>Arrow Keys:</strong> <kbd>↑</kbd> Move up & <kbd>↓</kbd> Move down.</li>
+        <li>The right paddle is controlled by the computer.</li>
+      </ul>
+    </div>
     <canvas id="pong-canvas" width="800" height="500"></canvas>
     <div id="scoreboard">
       <span id="score-left">0</span>
